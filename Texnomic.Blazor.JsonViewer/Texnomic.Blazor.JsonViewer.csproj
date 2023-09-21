@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk.Razor">
 
 	<PropertyGroup>
-		<TargetFramework>net7.0</TargetFramework>
+		<TargetFramework>net6.0</TargetFramework>
 		<Nullable>enable</Nullable>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
@@ -15,16 +15,18 @@
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<Copyright>Copyright 2023</Copyright>
 		<PackageProjectUrl>https://github.com/Texnomic/JsonViewer</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/Texnomic/JsonViewer</RepositoryUrl>
+		<RepositoryUrl>https://github.com/zdomokos/JsonViewer</RepositoryUrl>
 		<RepositoryType>GitHub</RepositoryType>
 		<PackageTags>Json Blazor</PackageTags>
 		<PackageIcon>Logo.png</PackageIcon>
+		<Title>Blazor JSON viewer</Title>
+		<PackageId>$(AssemblyName).Zd</PackageId>
 	</PropertyGroup>
 
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Components" Version="7.0.2" />
-		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="7.0.2" />
+		<PackageReference Include="Microsoft.AspNetCore.Components" Version="6.0.22" />
+		<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="6.0.22" />
 	</ItemGroup>
 
 	<ItemGroup>
